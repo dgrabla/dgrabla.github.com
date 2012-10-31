@@ -56,8 +56,8 @@ h1 {
 a.socialadventures-link {color: orange; font-weight:bold;}
 a.socialadventures-link:hover {color: red; font-weight:bold;}
 
-a {color: cyan; font-weight:bold;}
-a:hover {color: green; font-weight:bold;}
+a {text-decoration:none; color: cyan; font-weight:bold;}
+a:hover {color: yellow; font-weight:bold;}
  
 h1 .firstname { color: #777; }
 h1 .lastname { color: #FFF; }
@@ -65,8 +65,8 @@ h1 .lastname { color: #FFF; }
 h1 .nbsp, { display: none; }
 
 @media screen and (-webkit-min-device-pixel-ratio:0) { 
-  h1:hover .firstname  { display: inline }
-  h1:hover .lastname  { display: none }
+  h1:hover .firstname  { color: white; }
+  h1:hover .lastname  { color: red; }
 }
 
 h2 {
